@@ -18,15 +18,76 @@
 <!--12. Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
 <!--13.Icons-->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 <!--14. My CSS Project-->
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 
 
 <body>
+    <header class="header">
+        <div class="logo">
+            <img src="assets/img/logo.png" alt="logo" class="logo__image">
+        </div>
+    </header>
+        
+    <main class="main">
+        <div class="main__container">
+        <h1 class="main__title">Disfruta de los paisajes de
+        <span class="main__title-emphasis main__title-emphasis--size-xxl">
+        Chile
+        </span>
+        </h1>
+        <div class="main__button">
+        <button type="button" class="button button_positive">Más
+        destinos</button>
+        </div>
+        </div>
+        </main>
+
+        <form class="form">
+            <div class="form__container">
+            <label class="form__label">Lugar u hotel</label>
+            <input class="form__input-text" type="text" placeholder="Escribe tu
+            destino">
+            </div>
+            <div class="form__container">
+            <label class="form__label">Fecha de llegada</label>
+            <input class="form__input-date" type="date" class="">
+            </div>
+            <div class="form__container">
+            <label class="form__label">Fecha de salida</label>
+            <input class="form__input-date" type="date" class="">
+            </div>
+            <div class="form__container">
+            <label class="form__label">Tipo de alojamiento</label>
+            <select class="form__select" name="kjlkd">
+            <option value="1">Hotel</option>
+            <option value="2">Hostel</option>
+            <option value="3">Departamento</option>
+            </select>
+            </div>
+            <div class="form__container">
+            <label class="form__label">Tipo de habitación</label>
+            <select class="form__select" name="">
+            <option value="1">1 habitación</option>
+            <option value="2">2 habitaciones</option>
+            <option value="3">3 habitaciones</option>
+            <option value="4">+ de 4</option>
+            </select>
+            </div>
+            <button type="submit" class="button button_default">Buscar</button>
+            </form>
+            
+        
+
+    <!--Forma correcta de utilizar BEM-->
+    <input type="submit" value="Enviar" class="form__button
+    form__button--size-s">
+
+
 
 <!--21. Jquery 3.6.0-->
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
