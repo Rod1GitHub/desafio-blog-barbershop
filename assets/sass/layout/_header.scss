@@ -1,0 +1,18 @@
+/* layout_header: */
+.hero_section {
+    background-image: url('../img/post-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 727px;
+    
+ 
+    &__blog_title {
+        color:$platinium; 
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        }
+}
