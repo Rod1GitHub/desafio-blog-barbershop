@@ -1,0 +1,7 @@
+/* abstract_mixins loaded */
+@mixin barber_shop_font ($family:$font_modern, $size: $font_medium, $weight: $font_normal, $style: $font_regular) {
+    font-family: $family;
+    font-size: $size;
+    font-weight: $weight;
+    font-style: $style;
+}

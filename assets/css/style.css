@@ -1,0 +1,80 @@
+/* SCSS from main.scss file */
+/* Project: Barber Shop  */
+/* abstracts_variables loaded */
+/* abstract_mixins loaded */
+/* base_reset: */
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* base_typography: */
+h1, h2, h3, h4, h5, h6, p {
+  font-family: "Playfair Display", serif;
+  font-size: 70px;
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* base_base: */
+body {
+  color: red;
+}
+
+/* component_buttons: */
+.barber_shop_button__small, .barber_shop_button__medium {
+  padding: 0px 0px 0px 0px;
+  padding-right: 14px !important;
+  padding-left: 14px !important;
+  padding-bottom: 1px !important;
+  margin-bottom: 14px;
+  margin-right: 7px;
+  background-color: #6C6E70;
+  color: #fff;
+  border: none;
+  border-radius: 16.2px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 70px;
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+.barber_shop_button__small:hover, .barber_shop_button__medium:hover {
+  background-color: #e56353;
+}
+.barber_shop_button__small:focus, .barber_shop_button__medium:focus {
+  background-color: #222323;
+}
+
+.barber_shop_button__medium {
+  width: 250px;
+}
+.barber_shop_button__small {
+  width: 100px;
+}
+
+.barber_shop_link {
+  color: #ecbcba;
+  text-decoration: none;
+}
+.barber_shop_link:hover {
+  color: #222323;
+}
+.barber_shop_link:active {
+  color: #e6e7e7;
+}
+
+/* pagination normal size
+pagination small size */
+/* pages_home: */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */

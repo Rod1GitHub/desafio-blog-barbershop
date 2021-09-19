@@ -1,7 +1,6 @@
-/* Base Typography*/
-h1, h2, h3, h4, h5, h6 {
-    font-family: $playfair;
-    font-weight: $regular;
-    font-size: $medium;
-    }
+/* base_typography: */
+h1, h2, h3, h4, h5, h6, p {
+            @include barber_shop_font($font_classic, $font_xx_large, $font_bold, $font_italic);
+        }
     
+        
