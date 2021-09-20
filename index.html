@@ -5,16 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Autor aquí">
-    <meta name="description" content="Descripción aquí">
-    <meta name="keywords" content="Palabras clave aquí">
+    <meta name="author" content="Rodrigo Z.">
+    <meta name="description" content="Blog de barbería">
+    <meta name="keywords" content="Barbería, Barber Shop, Blog">
 
 <!--2. Pestaña y Favicon-->
-    <title>Título Pestaña</title>
-    <link rel="shortcut icon" type="img/png" href="./assets/img/favicon.png"/>
+    <title>BarberShop Blog</title>
+    <!--<link rel="shortcut icon" type="img/png" href="./assets/img/favicon.png"/>-->
 
 <!--11. CSS Bootsrtap 5.1.0-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+<!--   
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+-->
 <!--12. Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,13 +29,8 @@
 
 
 <body>
-<!--Forma correcta de utilizar BEM-->
-<!--<input type="submit" value="Enviar" class="form__button
-    form__button--size-s">
- -->
-
     <!--20. Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
         <a class="navbar-brand" href="#">
                 <img src="./assets/img/logo.png" height="30" alt="">
@@ -63,32 +60,75 @@
         </div>
     </nav>
 
-      <header class="hero_section">
-        <h1 class="hero_section__blog_title">5 formas de cuidar tu corte</h1>
-      </header>
-
-<section></section>
-<article></article>
-<footer></footer>
-
-<div>
-    <button class="barber_shop_button__medium"> Hola Medium</button>
-    <button class="barber_shop_button__small"> Hola Small</button>
-    <a class="barber_shop_link" href="http://">Link Barber Shop</a>
-    <p class="Rod01">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam commodi non amet molestias placeat, voluptates cum accusamus aut eveniet aliquam vel incidunt corporis. Tempora dolore ipsa fugiat delectus accusantium provident!</p>
-    
-    
-    <p class="Rod02">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam commodi non amet molestias placeat, voluptates cum accusamus aut eveniet aliquam vel incidunt corporis. Tempora dolore ipsa fugiat delectus accusantium provident!</p>
-    
-    </div>
-    
+    <header class="header">
+      <section class="hero_content">
+        <h1 class="hero_content__title pt-5">5 formas de cuidar tu corte de cabello</h1>
+        <i class="hero_content__arrow fas fa-angle-double-down fa-3x"></i>
+      </section>  
+    </header>
 
 
+<article class="blog_entry container pt-5">
+<p class="blog_entry__date">12 de Abril de 2018</p>
+<p class="blog_entry__content"> 
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, nemo cupiditate! Iure eum consectetur enim quibusdam, iste exercitationem inventore nisi repellendus maxime incidunt eaque accusamus reiciendis, placeat, officia blanditiis. Laudantium!   Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, nemo cupiditate! Iure eum consectetur enim quibusdam, iste exercitationem inventore nisi repellendus maxime incidunt eaque accusamus reiciendis, placeat, officia blanditiis. Laudantium!   Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, nemo cupiditate! Iure eum consectetur enim quibusdam, iste exercitationem inventore nisi repellendus maxime incidunt eaque accusamus reiciendis, placeat, officia blanditiis. Laudantium!
+  <br>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, nemo cupiditate! Iure eum consectetur enim quibusdam, iste exercitationem inventore nisi repellendus maxime incidunt eaque accusamus reiciendis, placeat, officia blanditiis. Laudantium!   Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, nemo cupiditate! Iure eum consectetur enim quibusdam, iste exercitationem inventore nisi repellendus maxime incidunt eaque accusamus reiciendis, placeat, officia blanditiis. Laudantium!   Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, nemo cupiditate! Iure eum consectetur enim quibusdam, iste exercitationem inventore nisi repellendus maxime incidunt eaque accusamus reiciendis, placeat, officia blanditiis. Laudantium!
+  <br>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, nemo cupiditate! Iure eum consectetur enim quibusdam, iste exercitationem inventore nisi repellendus maxime incidunt eaque accusamus reiciendis, placeat, officia blanditiis. Laudantium!   Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, nemo cupiditate! Iure eum consectetur enim quibusdam, iste exercitationem inventore nisi repellendus maxime incidunt eaque accusamus reiciendis, placeat, officia blanditiis. Laudantium!   Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, nemo cupiditate! Iure eum consectetur enim quibusdam, iste exercitationem inventore nisi repellendus maxime incidunt eaque accusamus reiciendis, placeat, officia blanditiis. Laudantium!
+  <br>
+  Lorem ipsum, dolor sit <a class="blog_entry__link" href="">amet consectetur adipisicing elit.</a>  Quas nam quaerat distinctio quidem perspiciatis, dicta, possimus voluptatum id hic quia ab atque! Ad voluptate, qui omnis vitae similique eaque esse.
+</p>
+
+<div class="barber_shop_button pt-5">
+  <button class="barber_shop_button--small"> Compartir</button>
+  <button class="barber_shop_button--medium"> Comentar en Twitter</button>
+</div>
+
+<div class="container author py-5">
+<div class="row text-center text-md-left">
+  <div class="col-lg-3 col-md-12 author__photo">
+    <img class="author__photo--circle" src="./assets/img/naomi-thai.png" alt="">
+  </div>
+  <div class="col-lg-3 col-md-12 author__contact">
+    <h2 class="author__contact--name">Naomi Thai</h2>
+    <a href="" class="author__contact--social">@Naothai</a>
+    <br>
+    <a href="" class="author__contact--web">depelos.com</a>
+  </div>
+  <div class="col-lg-6 col-md-12 d-none d-lg-block d-xl-none">
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id explicabo voluptate iste suscipit? Quos ex voluptate alias rerum eveniet fugiat? Asperiores, assumenda rem ullam labore a ut libero reiciendis animi!</p></div>
+</div>
+</div>
+</article>
+
+<div class="container-fluid border p-5 d-flex justify-content-center bg-secondary">
+  <nav aria-label="Page navigation example">
+    <ul class="pagination">
+      <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item"><a class="page-link" href="#">Siguiente</a></li>
+    </ul>
+  </nav>
+  </div>
+  
+
+<footer class="footer py-5">
+  <a href="#">
+    <img src="./assets/img/logo.png" height="30" alt="">
+</a>
+
+</footer>
 
 
 
 
-    <!--21. Jquery 3.6.0-->
+
+
+
+<!--21. Jquery 3.6.0-->
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <!--22. Popper-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>

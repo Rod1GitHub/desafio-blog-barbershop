@@ -5,3 +5,11 @@
     font-weight: $weight;
     font-style: $style;
 }
+
+%barber_shop_link {
+        color: $link-primary-scheme;
+        text-decoration: none;
+        &:hover {color: $link-secondary-scheme;}
+        &:active {color: $link-light-scheme;}
+    }
+

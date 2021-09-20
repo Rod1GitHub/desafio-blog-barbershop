@@ -1,0 +1,40 @@
+.blog_entry {
+
+    &__date{
+        @include barber_shop_font($font_classic, $font_medium, $font_regular, $font_normal);
+
+    }
+    &__content{
+        @include barber_shop_font($font_modern, $font_medium, $font_regular, $font_normal);
+    }
+    &__link{
+        @extend %barber_shop_link;
+    }
+
+    p {
+        color: black;
+            }
+    br {   
+        //giving br a space to separate paragraph 
+        content: "A" !important;
+        display: block !important;
+        margin-bottom: 1.5em !important;
+            }
+            
+    }
+
+    .author {
+
+        &__photo {}
+        &__photo--circle {border-radius: 50%; width: 100%;}
+        &__contact--name{@include barber_shop_font($font_classic, $font_x_large, $font_bold, $font_italic);}
+        &__contact--social{@extend %barber_shop_link;}
+        &__contact--web{@extend %barber_shop_link;}
+
+    }
+
+
+
+
+
+

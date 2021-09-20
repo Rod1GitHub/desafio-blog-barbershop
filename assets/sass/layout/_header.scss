@@ -1,12 +1,15 @@
 /* layout_header: */
-.hero_section {
+.header {
     background-image: url('../img/post-image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 727px;
-    
- 
-    &__blog_title {
+}
+
+.hero_content{
+    text-align: center;
+    &__title {
+        @include barber_shop_font ($family: $font_classic, $size: $font_xx_large, $weight: $font_regular, $style: $font_italic);
         color:$platinium; 
         margin: 0;
         position: absolute;
@@ -14,5 +17,11 @@
         left: 50%;
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
+
         }
+    &__arrow {
+        color: $platinium;
+        padding-bottom: 20px;
+        font-weight: lighter;
+    }
 }

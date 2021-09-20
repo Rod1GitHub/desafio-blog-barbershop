@@ -1,46 +1,28 @@
 /* component_buttons: */
 // common styles
 %rounded_button {
-    padding: 0px 0px 0px 0px;
-    padding-right: 14px !important;
-    padding-left: 14px !important;
-    padding-bottom: 1px !important;
-    margin-bottom: 14px;
-    margin-right: 7px;
 
     background-color: $nickel;
-    color: $white;
-
     border: none;
-    border-radius: 16.2px;
-
-    font-family: $font_modern;
-    font-size: $font_medium;
-    font-weight: $font_xx_large;
-    text-decoration: none;
+    color:$white;
     text-align: center;
-
-    position: relative;
+    text-decoration: none;
     display: inline-block;
-    
+    padding: 15px 30px;
+    margin: 4px 2px;
+    border-radius: 30px;
     cursor: pointer;
 
     &:hover {background-color: $fuzzy_wuzzy;}
     &:focus {background-color: $raisin_black;}
 }
 
+
+
 // Button
 .barber_shop_button {
-    &__medium {@extend %rounded_button; width: 250px;}
-    &__small {@extend %rounded_button; width: 100px;}
-}
-
-// Links
-.barber_shop_link {
-    color: $link-primary-scheme;
-    text-decoration: none;
-    &:hover {color: $link-secondary-scheme;}
-    &:active {color: $link-light-scheme;}
+    &--medium {@extend %rounded_button;}
+    &--small {@extend %rounded_button;}
 }
 
 
