@@ -1,3 +1,18 @@
 /* component_pagination: */
-/* pagination normal size
-pagination small size */
+
+.page-item:first-child .page-link {
+    border-top-left-radius: 1.3rem;
+    border-bottom-left-radius: 1.3rem;
+}
+
+.page-item:last-child .page-link {
+    border-top-right-radius: 1.3rem;
+    border-bottom-right-radius: 1.3rem;
+}
+
+.page-link {
+    color: $nickel;
+    text-decoration: none;
+    background-color: $white;
+    border: 1px solid $nickel;
+}

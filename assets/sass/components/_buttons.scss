@@ -13,11 +13,9 @@
     border-radius: 30px;
     cursor: pointer;
 
-    &:hover {background-color: $fuzzy_wuzzy;}
-    &:focus {background-color: $raisin_black;}
+    &:hover {background-color: $platinium;}
+    &:focus {background-color: $nickel; border: 4px solid $platinium;}
 }
-
-
 
 // Button
 .barber_shop_button {

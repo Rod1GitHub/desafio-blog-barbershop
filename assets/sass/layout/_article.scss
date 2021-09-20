@@ -25,14 +25,15 @@
 
     .author {
 
-        &__photo {}
-        &__photo--circle {border-radius: 50%; width: 100%;}
+        &__photo--circle {border-radius: 50%; width: 200px;}
         &__contact--name{@include barber_shop_font($font_classic, $font_x_large, $font_bold, $font_italic);}
         &__contact--social{@extend %barber_shop_link;}
         &__contact--web{@extend %barber_shop_link;}
+        &__description {text-align: start;}
+        &__description p {@include barber_shop_font($font_modern, $font_large, $font_regular, $font_normal);}
 
     }
-
+ 
 
 
 

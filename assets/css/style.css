@@ -11190,7 +11190,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p {
 
 .author__photo--circle {
   border-radius: 50%;
-  width: 100%;
+  width: 200px;
 }
 .author__contact--name {
   font-family: "Playfair Display", serif;
@@ -11198,6 +11198,16 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p {
   font-weight: 900;
   font-style: italic;
 }
+.author__description {
+  text-align: start;
+}
+.author__description p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .footer {
   background-color: #121619;
   text-align: center;
@@ -11225,10 +11235,29 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p {
   cursor: pointer;
 }
 .barber_shop_button--small:hover, .barber_shop_button--medium:hover {
-  background-color: #e56353;
+  background-color: #e6e7e7;
 }
 .barber_shop_button--small:focus, .barber_shop_button--medium:focus {
-  background-color: #222323;
+  background-color: #6C6E70;
+  border: 4px solid #e6e7e7;
+}
+
+/* component_pagination: */
+.page-item:first-child .page-link {
+  border-top-left-radius: 1.3rem;
+  border-bottom-left-radius: 1.3rem;
+}
+
+.page-item:last-child .page-link {
+  border-top-right-radius: 1.3rem;
+  border-bottom-right-radius: 1.3rem;
+}
+
+.page-link {
+  color: #6C6E70;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #6C6E70;
 }
 
 /* pages_home: */
